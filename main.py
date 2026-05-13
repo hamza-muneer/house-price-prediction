@@ -18,7 +18,7 @@ import joblib
 # 1. Load Dataset
 # ================================
 
-df = pd.read_csv("archive_3/train.csv")
+df = pd.read_csv("archive_3/train_cleaned.csv")
 
 print("Dataset Loaded")
 print(df.head())
